@@ -1,0 +1,82 @@
+/* General setup */
+* {
+    box-sizing: border-box;
+  }
+    
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 87%;
+    }   
+    body {
+      margin: 0 auto;
+      min-width: 875px;
+      max-width: 1000px;
+      background-color: #a96049;
+    }
+    
+    /* Layout */
+    
+    section {
+      float: left;
+      width: 50%;
+    }
+    
+    aside {
+      float: left;
+      width: 30%;
+    }
+    
+    nav {
+      float: center;
+      width: 40%;
+    }
+    
+    footer {
+      clear: both;
+    }
+    
+    header, section, aside, nav, footer {
+      padding: 45px;
+    }
+    
+    /* header and footer */
+    
+  
+    
+    /* WRITE YOUR CODE BELOW HERE */
+  h1 {
+    font-family: 'Rottordam FREE', sans-serif;
+    font-size: 95px;
+  }
+  
+  h2 {
+      font-family: 'Sunny Spells', sans-serif;
+      font-size: 44px;
+  }
+  
+    body {
+      background-color: #000000;
+      color: rgb(218, 102, 40);
+    }
+    
+    h1 {
+      background-color: #none;
+      color: white;
+      text-align: center;
+    }
+    
+    div {
+      background-color: #opaque;
+      color: :-ms-clear;
+    }
+  
+  span {
+      text-align: center;
+  }
+  
+  p,li {
+    font-family: 'FrnkGothITC Bk BT', sans-serif;
+    font-size: 16px;
+  }
